@@ -1,0 +1,22 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.DetalhesProdutoPage">
+
+    <StackLayout Padding="20">
+        <Label Text="Detalhes do Produto"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"/>
+
+        <Label Text="{Binding Nome}"
+               FontSize="22"
+               TextColor="Blue"
+               HorizontalOptions="Center"/>
+
+        <Label Text="{Binding Preco, StringFormat='Preço: {0:C}'}"
+               FontSize="18"
+               HorizontalOptions="Center"/>
+    </StackLayout>
+
+</ContentPage>
+

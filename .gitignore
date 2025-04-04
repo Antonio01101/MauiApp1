@@ -1,0 +1,19 @@
+# Ignore pastas de build e cache
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Ignora arquivos de build específicos
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Ignora configurações locais
+*.db
+*.DS_Store
+*.vsidx
